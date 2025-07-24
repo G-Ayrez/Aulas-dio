@@ -18,9 +18,17 @@ Repositorio para armazenar resumos sobre o GIt e Github do bootcamp da GFT reali
 Git init
 Git restore- descarta as açterações feita localmente
 Git status- status da arvore 
-git reset- exclui o commit
+git reset- exclui o commit criado
 
 ```
+Como manda um documento pelo git para o github
+
+```
+Git remote add origin (url do repositorio remoto)
+git push -u origin (remificação de onde está o documento na arvore )
+
+```
+
 
 ## ✍️ Textos das Aulas
 um commit é o ato de salvar um conjunto de alterações feitas em um repositório de código
