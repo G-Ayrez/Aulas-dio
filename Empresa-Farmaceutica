@@ -1,0 +1,45 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+Data: 30 de agosto de 2025
+Empresa: Abstergo Industries
+Responsável: Gustavo Ayres de Meira
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, uma distribuidora farmacêutica, realizado por Gustavo Ayres. O projeto foi focado na introdução de três serviços da AWS, visando a redução imediata e contínua dos custos operacionais, já que a empresa não possuía um sistema em nuvem.
+
+## Descrição do Projeto
+O projeto de implementação foi dividido em três etapas, cada uma focada em um serviço específico para otimizar os custos da infraestrutura.
+
+### Etapa 1: Análise e Otimização com AWS Trusted Advisor
+Foco da ferramenta: Otimização de Custos
+
+Principais Ganhos: Identificação de recursos ociosos e subutilizados.
+
+Pontos Positivos: O Trusted Advisor analisou o ambiente e gerou um relatório com recomendações claras para economizar dinheiro, como desligar instâncias que não estão sendo usadas e reduzir o volume de armazenamento desnecessário. Isso permitiu uma ação imediata para cortar gastos.
+
+### Etapa 2: Armazenamento Inteligente com Amazon S3 Intelligent-Tiering
+Foco da ferramenta: Gerenciamento de Custo de Armazenamento
+
+Principais Ganhos: Redução automática de custos de armazenamento sem intervenção manual.
+
+Pontos Positivos: Com o S3 Intelligent-Tiering, os dados da empresa foram movidos para a classe de armazenamento mais econômica com base na frequência de acesso. Dados acessados raramente são armazenados por um custo menor, e se forem acessados novamente, são movidos de volta para uma camada de acesso rápido, garantindo que a empresa sempre pague o preço ideal pelo armazenamento.
+
+### Etapa 3: Controle Financeiro com AWS Budgets
+Foco da ferramenta: Monitoramento e Controle de Custos
+
+Principais Ganhos: Prevenção de gastos excessivos e surpresas na fatura.
+
+Pontos Positivos: Foi criado um orçamento no AWS Budgets para monitorar os gastos da conta. A ferramenta envia alertas automáticos quando os custos se aproximam ou ultrapassam o limite definido, dando à empresa total controle sobre seus gastos na nuvem de forma proativa.
+
+## Conclusão
+A implementação dessas ferramentas na Abstergo Industries resultou em uma redução significativa e imediata dos custos operacionais, ao mesmo tempo em que a empresa obteve maior visibilidade e controle sobre seus gastos na nuvem. A utilização dessas ferramentas é fundamental para garantir a eficiência financeira e a escalabilidade dos negócios. Recomenda-se a continuidade do uso e a exploração de novas tecnologias para otimizar ainda mais as operações.
+
+## Anexos
+Relatório de Otimização de Custos do AWS Trusted Advisor
+
+Dashboard de Orçamento do AWS Budgets
+
+Documento de configuração do S3 Intelligent-Tiering
+
+Assinatura do Responsável pelo Projeto:
+
+Gustavo Ayres
